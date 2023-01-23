@@ -1,0 +1,6 @@
+footer{
+    grid-row: 9 / span 1;
+    background-color: black;
+    color: white;
+    height: 12vh;
+}

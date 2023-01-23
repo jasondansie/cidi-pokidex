@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    grid-row: 1 / span 1;
+}
+
+header h1{
+    padding-left: 2vw;
+}
+
+nav{
+    padding-right: 2vw;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav ul li a.active{
+    color: orange;
+    text-decoration: underline;
+}
+
+nav ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    column-gap: 5vw;
+}
+
+ul li{
+    list-style: none;
+}
